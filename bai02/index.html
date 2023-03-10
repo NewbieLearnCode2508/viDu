@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Untitled Document</title>
+        <style>
+            .Bao {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+
+            .container {
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONGSdCV0pM3vI8bsQ3R648-9nkaMQ-yUMWe22AG19yA&s);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 align="center" style="color: red">Thông Tin Khách Hàng</h2>
+            <form>
+                <label style="font-weight: bold; color: blue"
+                    >Tên Khách Hàng:</label
+                >
+                <input
+                    type="text"
+                    style="margin-left: 20px; padding-right: 350px"
+                />
+                <br />
+                <label style="margin-left: 20px; font-weight: bold; color: blue"
+                    >Tình Trạng:</label
+                >
+                <select
+                    style="
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        padding-right: 50px;
+                    "
+                >
+                    <option value="1">Khách hàng VIP</option>
+                    <option value="2">Khách hàng thành viên</option>
+                    <option value="3">Khách hàng mới</option>
+                    <strong></strong>
+                </select>
+                <label style="margin-left: 315px; color: blue">Mã KH:</label>
+                <input type="text" style="width: 90px" />
+                <br />
+                <label style="margin-left: 20px; font-weight: bold; color: blue"
+                    >Chọn Khu:</label
+                >
+                <input
+                    name="chonkhu"
+                    type="radio"
+                    style="margin-top: 5px; margin-left: 50px"
+                />Khách Sạn <input name="chonkhu" type="radio" />Karaoke
+                <br />
+                <label
+                    style="margin-left: 146px; font-weight: bold; color: blue"
+                    >Số Phòng:</label
+                >
+                <input type="text" style="margin-top: 5px" />
+                <br />
+                <input
+                    name="chon"
+                    type="radio"
+                    style="margin-top: 5px; margin-left: 150px"
+                />Bar Club <input name="chon" type="radio" />Coffee
+                <br />
+                <label
+                    style="margin-left: 146px; font-weight: bold; color: blue"
+                    >Số Bàn:</label
+                >
+                <input
+                    type="text"
+                    style="margin-top: 5px; padding-right: 17px"
+                />
+                <br />
+                <div class="Bao">
+                    <label
+                        style="
+                            margin-left: 20px;
+                            font-weight: bold;
+                            color: blue;
+                        "
+                        >Yêu Cầu:</label
+                    >
+                    <textarea
+                        rows="3"
+                        cols="60"
+                        style="
+                            margin-left: 62px;
+                            margin-top: 5px;
+                            padding-right: 65px;
+                        "
+                    ></textarea>
+                </div>
+                <button style="margin-left: 45%; margin-top: 20px">
+                    GỬI THÔNG TIN
+                </button>
+            </form>
+            <h5 style="margin: 0; color: red" align="center">
+                Quý khách vui lòng điền thông tin đầy đủ trước khi đặt món
+                ăn.!!!
+            </h5>
+        </div>
+    </body>
+</html>

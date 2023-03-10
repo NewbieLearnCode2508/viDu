@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Untitled Document</title>
+    </head>
+
+    <body>
+        <body>
+            <canvas
+                id="Huy"
+                width="200"
+                height="200"
+                style="border: 1px solid #000000"
+            ></canvas>
+            <script>
+                var c = document.getElementById("Huy");
+                var ctx = c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(100, 100, 55, 0, 0.5 * Math.PI);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.arc(100, 100, 40, 0, 0.5 * Math.PI);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.arc(100, 100, 25, 0, 0.5 * Math.PI);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.arc(100, 100, 10, 0, 0.5 * Math.PI);
+                ctx.stroke();
+                var ctx2 = c.getContext("2d");
+                ctx2.beginPath();
+                ctx2.arc(100, 100, 55, 1*Math.PI, 1.5 * Math.PI);
+                ctx2.stroke();
+                ctx2.beginPath();
+                ctx2.arc(100, 100, 40, 1*Math.PI, 1.5 * Math.PI);
+                ctx2.stroke();
+                ctx2.beginPath();
+                ctx2.arc(100, 100, 25, 1*Math.PI, 1.5 * Math.PI);
+                ctx2.stroke();
+                ctx2.beginPath();
+                ctx2.arc(100, 100, 10, 1*Math.PI, 1.5 * Math.PI);
+                ctx2.stroke();
+            </script>
+        </body>
+    </body>
+</html>
